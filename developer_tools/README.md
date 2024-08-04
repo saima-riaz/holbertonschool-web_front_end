@@ -43,3 +43,38 @@ Developer_Tools
 
 - [16-weight.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/%2016-weight.png)
 
+- [17-requests.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/17-requests.png)
+
+- [18-css_loaded](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/18-css_loaded)
+
+- 19 [19-images_loaded](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/19-images_loaded)
+
+-[20-favicon_type](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/20-favicon_type)
+
+- [21-hbtn_font_lib](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/21-hbtn_font_lib)
+
+- [22-xhr_calls](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/22-xhr_calls)
+
+- [23-performance_audit.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/23-performance_audit.png)
+
+- [24-static_assets_audit.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/24-static_assets_audit.png)
+
+- [25-contrast_issue](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/25-contrast_issue)
+
+- [26-no_alt](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/26-no_alt)
+
+- [27-missing_attr](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/27-missing_attr)
+
+- [28-unclear_desc.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/28-unclear_desc.png)
+
+- [29-how_many_colors.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/29-how_many_colors.png)
+
+- [30-no_css.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/30-no_css.png)
+
+- [31-session_storage_key](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/31-session_storage_key)
+
+- [32-service_workers](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/32-service_workers)
+
+- [33-ssl_cert](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/33-ssl_cert)
+
+- [34-ssl_expiration.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/34-ssl_expiration.png)
