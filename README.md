@@ -22,4 +22,4 @@ Web front-end development focuses on creating the visual and interactive aspects
 # Final View
 [developer_tools](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/developer_tools)
 
-Author : Saima RIAZ
+# Author : Saima RIAZ
