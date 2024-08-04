@@ -17,28 +17,29 @@ Developer_Tools
 
 - [3-button_styles](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/3-button_styles)
 
-- 4[4-new_buttons.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/4-new_buttons.png)
+- [4-new_buttons.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/4-new_buttons.png)
 
-- 5[5-deleted_elements.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/5-deleted_elements.png)
+- [5-deleted_elements.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/5-deleted_elements.png)
 
-- 6 [6-declaration_file](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/6-declaration_file)
+- [6-declaration_file](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/6-declaration_file)
 
-- 7 [7-number_of_listeners](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/7-number_of_listeners)
+- [7-number_of_listeners](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/7-number_of_listeners)
 
-- 8 [8-hsl](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/8-hsl)
+- [8-hsl](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/8-hsl)
 
-- 9 [9-max_width](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/9-max_width)
+- [9-max_width](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/9-max_width)
 
-- 10 [10-moved_around.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/10-moved_around.png)
+- [10-moved_around.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/10-moved_around.png)
 
-- 11 [11-coverage](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/11-coverage)
+- [11-coverage](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/11-coverage)
 
-- 12 [12-print_version.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/12-print_version.png)
+- [12-print_version.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/12-print_version.png)
 
-- 13 [13-logo_dollar0](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/13-logo_dollar0)
+- [13-logo_dollar0](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/13-logo_dollar0)
 
-- 14 [14-doc_title](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/14-doc_title)
+- [14-doc_title](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/14-doc_title)
 
-- 15 [15-hbtn_framework](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/15-hbtn_framework)
+- [15-hbtn_framework](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/15-hbtn_framework)
 
+- [16-weight.png](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/%2016-weight.png)
 
