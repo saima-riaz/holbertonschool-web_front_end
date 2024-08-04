@@ -20,4 +20,6 @@ Web front-end development focuses on creating the visual and interactive aspects
 - Use the newest version of Google Chrome browser (78.0.3904.70 or later).
 - Screenshots can be taken via the OS, not necessary via the DevTools. These screenshots are used to see how and where you are doing/playing with the DevTools.
 # Final View
-............. later
+[developer_tools](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/developer_tools)
+
+Author : Saima RIAZ
