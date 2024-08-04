@@ -47,9 +47,9 @@ Developer_Tools
 
 - [18-css_loaded](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/18-css_loaded)
 
-- 19 [19-images_loaded](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/19-images_loaded)
+- [19-images_loaded](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/19-images_loaded)
 
--[20-favicon_type](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/20-favicon_type)
+- [20-favicon_type](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/20-favicon_type)
 
 - [21-hbtn_font_lib](https://github.com/saima-riaz/holbertonschool-web_front_end/blob/main/developer_tools/21-hbtn_font_lib)
 
