@@ -1,9 +1,11 @@
-// assigns the background image//
+//assigns the background image based on the name//
 
-@import 'list-names';
+@import '11-photos';
+
+$base-url: 'photos/';
 
 @each $name in $list-names {
-  .#{$name} {
-    background-image: url('/images/#{$name}.jpg');
+  .photo-#{$name} {
+    background: image-url("#{$base-url}#{$name}.jpg") no-repeat;
   }
 }
