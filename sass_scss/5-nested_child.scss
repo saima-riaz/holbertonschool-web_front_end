@@ -1,0 +1,7 @@
+//first nested child in body tag//
+body {
+    color: #3D3D3D;
+    > .red { //this sign > child combinator//
+        color: #FF0000;
+    }
+}
