@@ -1,4 +1,4 @@
-## Flexbox Introducation
+# Flexbox Introducation
 Flexbox (Flexible Box Layout) is a CSS layout model designed to make it easier to create flexible and responsive layouts. It allows you to arrange items in a container, distributing space dynamically and aligning items in ways that were difficult or cumbersome with older layout methods like floats or inline-block.
 Flexbox is particularly useful for creating complex layouts with minimal code, and it adapts well to different screen sizes and content dimensions.
 # Key Features:
@@ -11,9 +11,9 @@ Flexbox is particularly useful for creating complex layouts with minimal code, a
 - flex-direction: Defines the direction of the flex items (row, column, etc.).
 - flex-wrap: Determines whether items should wrap onto multiple lines.
 
-## Project Name: 
-# Flexbox
-# Learning Objectives
+# Project Name: 
+## Flexbox
+## Learning Objectives
 - What is Flexbox?
 - How to convert float positioning to a flex display
 - How to horizontally and vertically align elements using Flexbox
