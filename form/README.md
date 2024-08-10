@@ -1,5 +1,5 @@
 # Introduction to Forms
-<img src="https://github.com/user-attachments/assets/ad144443-a399-44e1-a926-2c257d3bf8d6" alt="image" width="300"/>
+<img src="https://github.com/user-attachments/assets/ad144443-a399-44e1-a926-2c257d3bf8d6" alt="image" width="200"/>
 
 Forms are a fundamental part of web development, providing a way for users to interact with a website by inputting and submitting data. They are used in a wide range of applications, from simple contact forms to complex user registration, search interfaces, and checkout processes.
 
