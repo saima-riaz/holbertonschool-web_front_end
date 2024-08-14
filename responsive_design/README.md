@@ -1,5 +1,6 @@
 # Project Name 
-Responsive design
+# Responsive design
+
 ## Introduction 
 ![image](https://github.com/user-attachments/assets/ee32166d-2a2c-477f-a806-7d945b638c99)
 
