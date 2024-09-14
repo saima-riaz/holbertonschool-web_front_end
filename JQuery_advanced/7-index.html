@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Search</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <script>
+        // Create the search form
+        function createSearchForm() {
+            $("body").append(`
+                <form>
+                    <input type="text" placeholder="Search Wikipedia" />
+                    <input type="submit" value="Search" />
+                </form>
+                <ul></ul>
+            `);
+
+            // Handle the form submission
+            $('form').submit(function (event) {
+                event.preventDefault();  // Prevent page reload
+                var searchText = $('input[type="text"]').val();  // Get the search term
+                queryWikipedia(searchText);  // Call queryWikipedia with search term
+            });
+        }
+
+        // Function to add a new article to the list
+        function addNewArticle(id, title, snippet) {
+            $('ul').append(`
+                <li>
+                    <p><span>${id} - </span><b>${title}</b></p>
+                    <p>${snippet}</p>
+                </li>
+            `);
+        }
+
+        // Query Wikipedia using the search term
+        function queryWikipedia(search) {
+            // Wikipedia API endpoint and parameters
+            var apiUrl = "https://en.wikipedia.org/w/api.php";
+            var data = {
+                action: 'query',
+                list: 'search',
+                srsearch: search,
+                format: 'json',
+                origin: '*'  // Allow cross-origin requests
+            };
+
+            // Perform the AJAX request to Wikipedia
+            $.ajax({
+                url: apiUrl,
+                data: data,
+                success: function (response) {
+                    var results = response.query.search;
+                    $('ul').empty();  // Clear the previous results
+                    results.forEach(result => {
+                        addNewArticle(result.pageid, result.title, result.snippet);
+                    });
+                },
+                error: function () {
+                    alert("Error fetching Wikipedia data.");
+                }
+            });
+        }
+
+        // Initialize the page with the search form
+        $(document).ready(function () {
+            createSearchForm();
+        });
+    </script>
+</body>
+</html>
