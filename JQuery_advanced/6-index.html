@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Task 6</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script>
+        // function to create a family tree table
+        function createFamilyTree() {
+            $("body").append(
+                $('<table></table>').attr('border', "1").append(
+                    $('<thead></thead>').append(
+                        $('<tr></tr>').append(
+                            $('<th></th>').text('Firstname'),
+                            $('<th></th>').text('Lastname')
+                        )
+                    )
+                ).append($('<tbody></tbody>'))
+            );
+        }
+
+        // function to add a new member to the family tree at a specific position
+        function addNewMember(firstName, lastName, position) {
+            var newRow = $('<tr></tr>').append(
+                $('<td></td>').text(firstName),
+                $('<td></td>').text(lastName),
+                $('<td></td>').text('(x)')
+                    .css('background-color', 'orange')
+                    .css('cursor', 'pointer')
+                    .click(function () {
+                        $(this).parent().remove();
+                    })
+            );
+
+            // Check the position argument and add the row accordingly
+            if (position === 'before') {
+                $('tbody').prepend(newRow); // Add to the top of the table
+            } else {
+                $('tbody').append(newRow); // Add to the bottom of the table
+            }
+        }
+
+        // Function to create the form
+        function createForm() {
+            // Append the form before the table
+            $("body").prepend(
+                $('<form></form>').append(
+                    $('<input type="text" placeholder="Firstname">'), 
+                    $('<input type="text" placeholder="Lastname">'), 
+                    $('<select></select>').append(
+                        $('<option></option>').attr('value', 'before').text('Before'),
+                        $('<option></option>').attr('value', 'after').text('After')
+                    ), // Select option with before and after
+                    $('<input type="submit" value="Add Member">')  // Submit button
+                )
+            );
+
+            // Handle the form submission
+            $('form').submit(function (event) {
+                event.preventDefault(); // Prevent form from submitting the traditional way
+
+                // Get the values from the inputs
+                var firstName = $('input:nth-of-type(1)').val();
+                var lastName = $('input:nth-of-type(2)').val();
+                var position = $('select').val();
+
+                // Call addNewMember with the form values
+                addNewMember(firstName, lastName, position);
+                
+                // Clear the inputs after submission
+                $('input:nth-of-type(1), input:nth-of-type(2)').val('');
+            });
+        }
+
+        // Initialize the family tree and form
+        createFamilyTree();
+        createForm();
+    </script>
+</body>
+</html>
