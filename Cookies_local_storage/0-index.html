@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width= device-width, initial-scale=1.0">
-        <title>cookies</title>
-        <body>
-            <h1>Login to the website</h1>
-            
-            <!--input fields-->
-            <label for="firstname>"First Name:></label>
-            <input type="text" id="firstname" name="firstname" placeholder="Firstname">
-            <label for="email"></label>
-            <input type="text" id="email" name="email" placeholder="Email">
-            
-            <!---button field-->
-            <button onclick="setCookies">Login me in </button>
-            <button onclick="showCookies">Show the cookies</button>
-            <script>
-                function setCookies () {
-                    const firstname = document.getElementById('firstname').value;
-                    const email = document.getElementById('email').value;
-                    document.cookie = 'firstname=${firstname}; path=/';
-                    document.cookie = 'email=${email}; path=/';
-                }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookies</title>
+</head>
+<body>
+    <h1>Login to the website</h1>
+    
+    <!-- Input fields -->
+    <label for="firstname"></label>
+    <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+    <label for="email"></label>
+    <input type="text" id="email" name="email" placeholder="Email">
+    
+    <!-- Button field -->
+    <button onclick="setCookies()">Login me in</button>
+    <button onclick="showCookies()">Show the cookies</button>
+    
+    <div id="cookie-display"></div>
+    
+    <script>
+        function setCookies() {
+            const firstname = document.getElementById('firstname').value;
+            const email = document.getElementById('email').value;
+            document.cookie = `firstname=${firstname}; path=/`;
+            document.cookie = `email=${email}; path=/`;
+        }
 
-                function showCookies() {
-                    const paragraph = document.createElement('p');
-                    const cookies = document.cookie;
-                    paragraph.innerHTML = 'Cookies: ${cookies}';
-                    document.getElementById("cookie-display").appendChild(paragraph);
-                }
-            </script>
-        </body>
-    </head>
+        function showCookies() {
+            const paragraph = document.createElement('p');
+            const cookies = document.cookie;
+            paragraph.innerHTML = `Cookies: ${cookies}`;
+            document.getElementById("cookie-display").appendChild(paragraph);
+        }
+    </script>
+</body>
 </html>
