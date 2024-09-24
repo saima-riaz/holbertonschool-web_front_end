@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 5</title>
+</head>
+<body>
+    <script type="application/javascript">
+        const availableItems = ["Shampoo", "Soap", "Sponge", "Water"];
+
+        if (typeof(Storage) === "undefined") {
+            alert("Sorry, your browser does not support Web storage. Try again with a better one."); 
+        } else {
+            createStore();
+            displayCart();
+        }
+
+        function addItemToCart(item) {
+            // Add item to localStorage with value 'true'
+            localStorage.setItem(item, true);
+
+            // message for debugging and confirmation of adding items
+            console.log(`Added ${item} to cart`); // Added semicolon for clarity
+        }
+
+        function createStore() {
+            const ul = document.createElement('ul');
+            availableItems.forEach(item => {
+                // Create a list item for each available product
+                const li = document.createElement('li');
+                li.textContent = item; // Set the text content to the item name
+
+                // Add a click event listener to each <li> that calls addItemToCart
+                li.addEventListener('click', () => {
+                    addItemToCart(item); // Add item to the cart when clicked
+                });
+                ul.appendChild(li); // Append the <li> to the <ul>
+            });
+            // Append the <ul> to the body
+            document.body.appendChild(ul);
+        }
+
+        function displayCart() {
+            let cartItem = 0;
+
+            availableItems.forEach(item => {
+                if (localStorage.getItem(item)) {
+                    cartItem++; // Increment the count if the item is in the cart
+                }
+            });
+
+            if (cartItem > 0) {
+                const p = document.createElement('p');
+                p.textContent = `You previously had ${cartItem} items in your cart.`; // Changed cartItems to cartItem
+                document.body.appendChild(p);
+            }
+        }
+    </script>
+</body>
+</html>
