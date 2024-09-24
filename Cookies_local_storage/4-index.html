@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add js-cookie using the jsDelivr CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+    <title>Task 4 js-cookiesss</title>
+</head>
+<body>
+    <!-- Login Form -->
+    <div id="login_form">
+        <h2>Login to the website</h2>
+        <input type="text" id="firstname" placeholder="Firstname">
+        <input type="text" id="email" placeholder="Email">
+        <button onclick="setCookiesAndShowWelcomeMessage()">Log me in</button>
+    </div>
+
+    <!-- Welcome Message -->
+    <div id="welcome_message" style="display: none;"></div>
+
+    <script type="application/javascript">
+        // Function to set cookies and show the welcome message
+        function setCookiesAndShowWelcomeMessage() {
+            const firstname = document.getElementById('firstname').value;
+            const email = document.getElementById('email').value;
+
+            // Set cookies using js-cookie
+            Cookies.set('firstname', firstname, { expires: 10 });
+            Cookies.set('email', email, { expires: 10 });
+
+            // Show the welcome message or form
+            showWelcomeMessageOrForm();
+        }
+
+        // Function to show the login form
+        function showForm() {
+            const welcomeMessage = document.getElementById('welcome_message');
+            if (welcomeMessage.style.display === 'block') {
+                welcomeMessage.style.display = 'none'; // Hide the welcome message if it exists
+            }
+            document.getElementById('login_form').style.display = 'block'; // Show the form
+        }
+
+        // Function to hide the login form
+        function hideForm() {
+            document.getElementById('login_form').style.display = 'none'; // Hide the form
+        }
+
+        // Function to delete cookies and show the login form again
+        function deleteCookiesAndShowForm() {
+            // Use js-cookie to remove cookies
+            Cookies.remove('firstname');
+            Cookies.remove('email');
+
+            // Show the form after deleting cookies
+            showForm();
+        }
+
+        // Function to show the welcome message or form based on login status
+        function showWelcomeMessageOrForm() {
+            const firstname = Cookies.get('firstname'); // Use js-cookie to get the firstname cookie
+            if (firstname) {
+                // User is logged in, display the welcome message
+                hideForm(); // Hide the login form
+                const welcomeMessage = document.getElementById('welcome_message');
+                welcomeMessage.style.display = 'block'; // Show the welcome message
+                welcomeMessage.innerHTML = `Welcome: ${firstname} <a href="#" onclick="deleteCookiesAndShowForm()">(Logout)</a>`;
+                
+                // Style the logout link (optional)
+                const logoutLink = welcomeMessage.querySelector('a');
+                logoutLink.style.fontWeight = 'normal';
+                logoutLink.style.fontStyle = 'italic';
+                logoutLink.style.marginLeft = '10px';
+            } else {
+                // User is not logged in, show the form
+                showForm();
+            }
+        }
+
+        // Call showWelcomeMessageOrForm when the page loads to check login status
+        window.onload = showWelcomeMessageOrForm;
+    </script>
+
+</body>
+</html>
