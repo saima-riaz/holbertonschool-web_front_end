@@ -14,18 +14,31 @@ Web front-end development focuses on creating the visual and interactive aspects
 - How to know how much JavaScript or CSS is used on a page
 - How to detect 404 issues
 - How to move elements on a webpage
-# Requirements
+### Requirements
 
 - A README.md file, at the root of the folder of the project, is mandatory
 - Use the newest version of Google Chrome browser (78.0.3904.70 or later).
 - Screenshots can be taken via the OS, not necessary via the DevTools. These screenshots are used to see how and where you are doing/playing with the DevTools.
 
-# Final View
+
+### 📂 Project Structure 📂
+
+The project is organized into the following directories:
+[Bootstrap](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Bootstrap)
+[Cookies_local_storage](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Cookies_local_storage)
+[JQuery_advanced](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/JQuery_advanced)
+[Javascript_advanced](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Javascript_advanced)
+[ accessibility](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/accessibility)
 [developer_tools](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/developer_tools)
+[flexbox](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/flexbox)
+[form](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/form)
+[responsive_design](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/responsive_design)
+[sass_scss](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/sass_scss)
 
 ---
 
-# Developer : Saima RIAZ
+
+### Developer : Saima RIAZ
 
 Hi there! I’m Saima, and working on this project has been a fantastic experience, full of challenges and growth. This repository covers a wide range of front-end skills, from building responsive layouts with Flexbox and Bootstrap to creating dynamic experiences with JavaScript and jQuery. Tackling areas like accessibility and responsive design really pushed me to think about how users of all abilities and devices experience a website, making me pay close attention to details that truly impact usability.
 
