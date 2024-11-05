@@ -24,16 +24,16 @@ Web front-end development focuses on creating the visual and interactive aspects
 ### 📂 Project Structure 📂
 
 The project is organized into the following directories:
-[Bootstrap](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Bootstrap)
-[Cookies_local_storage](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Cookies_local_storage)
-[JQuery_advanced](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/JQuery_advanced)
-[Javascript_advanced](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Javascript_advanced)
-[ accessibility](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/accessibility)
-[developer_tools](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/developer_tools)
-[flexbox](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/flexbox)
-[form](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/form)
-[responsive_design](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/responsive_design)
-[sass_scss](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/sass_scss)
+- [Bootstrap](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Bootstrap)
+- [Cookies_local_storage](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Cookies_local_storage)
+- [JQuery_advanced](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/JQuery_advanced)
+- [Javascript_advanced](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/Javascript_advanced)
+- [ accessibility](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/accessibility)
+-[developer_tools](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/developer_tools)
+- [flexbox](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/flexbox)
+- [form](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/form)
+- [responsive_design](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/responsive_design)
+- [sass_scss](https://github.com/saima-riaz/holbertonschool-web_front_end/tree/main/sass_scss)
 
 ---
 
